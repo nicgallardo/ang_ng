@@ -3,8 +3,8 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-#foo {
-  background-color: red;
+#home-input {
+  padding-left: 10px;
 }
 
 .custom-input {
@@ -43,30 +43,6 @@ a {
   height: 100%
 }
 
-/*p{
-  color: lime;
-  font-family: "Courier";
-  font-size: 20px;
-  margin: 10px 0 0 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end);
-}
-
-p:nth-child(2){
-  animation: type2 8s steps(60, end);
-}
-
-p a{
-  color: lime;
-  text-decoration: none;
-}
-
-span{
-  animation: blink 1s infinite;
-}*/
-
 .interactive{
   color: #F06BA8;
   font-family: "Courier";
@@ -94,8 +70,6 @@ span{
 .blinking{
   animation: blink 1s infinite;
 }
-
-
 
 @keyframes type{
   from { width: 0; }
