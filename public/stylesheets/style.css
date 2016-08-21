@@ -35,6 +35,10 @@ body {
   padding-left: 10px;
 }
 
+#greeting {
+  padding-left: 20px;
+}
+
 a {
   color: #00B7FF;
 }

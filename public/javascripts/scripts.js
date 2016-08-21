@@ -17,7 +17,7 @@ angular.module('portfolioApp', ["ngRoute"])
     const phaseOut = function(name){
       $(".home-interactive").fadeOut(1000, function() { $(this).remove(); })
       $( "#greeting-text" ).append(`Well 'ello there ${name}!`);
-      setTimeout(()=>{
+      setTimeout(function(){
         document.getElementById('greeting').style.visibility = "visible";
         $("#greeting-text").addClass('interactive');
       },2000)
