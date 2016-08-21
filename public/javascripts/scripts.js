@@ -1,6 +1,12 @@
 angular.module('portfolioApp', ["ngRoute"])
   .controller("HomeCtrl", function ($scope){
-    console.log('I run in home controller')
+    setTimeout(function(){
+      document.getElementById('home-input').style.visibility = "visible";
+      $(".custom-input").focus();
+      setTimeout(function(){
+        console.log('i ran after the vis appeared')
+      }, 2000)
+    },12700);
 
   })
   .controller("AboutCtrl", function($scope, $location){

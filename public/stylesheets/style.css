@@ -1,8 +1,116 @@
 body {
-  padding: 50px;
+  /*padding: 50px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#foo {
+  background-color: red;
+}
+
+.custom-input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid #F06BA8;
+  width: 400px;
+  color: #F06BA8;
 }
 
 a {
   color: #00B7FF;
+}
+
+.pink-one {
+  background-color: #F06BA8;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.home-interactive {
+  height: 500px;
+}
+
+.home-height{
+  height: 100%
+}
+
+.home-top {
+  height: 30%
+}
+.home-bottom {
+  height: 100%
+}
+
+/*p{
+  color: lime;
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end);
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}*/
+
+.interactive{
+  color: #F06BA8;
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 5s steps(60, end);
+}
+
+.interactive:nth-child(2){
+  animation: type2 7s steps(60, end);
+}
+
+.interactive:nth-child(3){
+  animation: type2 13s steps(60, end);
+}
+
+.interactive a{
+  color: lime;
+  text-decoration: none;
+}
+
+.blinking{
+  animation: blink 1s infinite;
+}
+
+
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
 }
