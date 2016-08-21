@@ -1,19 +1,38 @@
 body {
   /*padding: 50px;*/
+  background-color: black;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-#home-input {
-  padding-left: 10px;
+
+.img-padding {
+  padding: 10px;
 }
 
 .custom-input {
   border: 0;
   outline: 0;
   background: transparent;
-  border-bottom: 3px solid #F06BA8;
+  border-bottom: 2px solid #F06BA8;
   width: 400px;
   color: #F06BA8;
+}
+
+.home-submit {
+  background: transparent;
+  border: none;
+  color: #F06BA8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#home-input {
+  padding-left: 10px;
 }
 
 a {
@@ -28,25 +47,18 @@ a {
   background-color: black;
 }
 
-.home-interactive {
-  height: 500px;
-}
-
-.home-height{
-  height: 100%
-}
-
 .home-top {
-  height: 30%
+  height: 30%;
+  background-color: white;
+  padding: 50px 0px 50px 0px;
 }
-.home-bottom {
-  height: 100%
-}
-
-.interactive{
+.interactive-text {
   color: #F06BA8;
   font-family: "Courier";
   font-size: 20px;
+}
+
+.interactive{
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
